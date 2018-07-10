@@ -132,18 +132,19 @@ class theta:
 
 if __name__ == '__main__':
     tmp = theta()
-    #tmp.preview()
+    tmp.preview()
     #tmp.get_format()
     #tmp.set_preview_format(512, 1024, 30)
     #tmp.set_preview_format(320, 640, 30)
     #tmp.set_sleep_delay()
     #tmp.status()
     #tmp.list_files()
-    #tmp.get_options(['_filter'])
+    #tmp.get_options(['_filter', 'videoStitching'])
     #tmp.set_options({'_filter': 'off'})
     #tmp.set_options({'_filter': 'Noise Reduction'})
     #tmp.set_options({'_filter': 'DR Comp'})
-    tmp.take_shot()
+    #tmp.set_options({'videoStitching': 'ondevice'})
+    #tmp.take_shot()
 
 
 
